@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F3D3A77ECC8B38D0D5E3DF /* Pods_KalturaMeetings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E521F44F6B1565D80372B45 /* Pods_KalturaMeetings.framework */; };
+		97121AEA247E1468009A8A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97121AE9247E1468009A8A30 /* AppDelegate.swift */; };
+		97121AEC247E1468009A8A30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97121AEB247E1468009A8A30 /* SceneDelegate.swift */; };
+		97121AEE247E1468009A8A30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97121AED247E1468009A8A30 /* ViewController.swift */; };
+		97121AF1247E1468009A8A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97121AEF247E1468009A8A30 /* Main.storyboard */; };
+		97121AF3247E146B009A8A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97121AF2247E146B009A8A30 /* Assets.xcassets */; };
+		97121AF6247E146B009A8A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97121AF4247E146B009A8A30 /* LaunchScreen.storyboard */; };
+		97121AFE247E14CB009A8A30 /* kaltura-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 97121AFD247E14CB009A8A30 /* kaltura-logo.png */; };
+		978494E3247E202900353652 /* KalturaClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978494E2247E202900353652 /* KalturaClient.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D7C259F2BC5FAB60BCBCD2 /* Pods-KalturaMeetings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaMeetings.debug.xcconfig"; path = "Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings.debug.xcconfig"; sourceTree = "<group>"; };
+		2D30553D293CD3FA84FB96DF /* Pods-KalturaMeetings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaMeetings.debug.xcconfig"; path = "Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings.debug.xcconfig"; sourceTree = "<group>"; };
+		42DABDC08BAA1B4B689983D0 /* Pods-KalturaMeetings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaMeetings.release.xcconfig"; path = "Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings.release.xcconfig"; sourceTree = "<group>"; };
+		6E521F44F6B1565D80372B45 /* Pods_KalturaMeetings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalturaMeetings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97121AE6247E1468009A8A30 /* KalturaMeetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalturaMeetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97121AE9247E1468009A8A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97121AEB247E1468009A8A30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97121AED247E1468009A8A30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97121AF0247E1468009A8A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97121AF2247E146B009A8A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97121AF5247E146B009A8A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97121AF7247E146B009A8A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97121AFD247E14CB009A8A30 /* kaltura-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kaltura-logo.png"; sourceTree = "<group>"; };
+		978494E2247E202900353652 /* KalturaClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KalturaClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE3E94A08917D3072F5CE41 /* Pods-KalturaMeetings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalturaMeetings.release.xcconfig"; path = "Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97121AE3247E1468009A8A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978494E3247E202900353652 /* KalturaClient.framework in Frameworks */,
+				31F3D3A77ECC8B38D0D5E3DF /* Pods_KalturaMeetings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97121ADD247E1468009A8A30 = {
+			isa = PBXGroup;
+			children = (
+				97121AE8247E1468009A8A30 /* KalturaMeetings */,
+				97121AE7247E1468009A8A30 /* Products */,
+				9D1D720640E7E17F26A2498C /* Pods */,
+				996A85397DD45D37BB4DCAA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97121AE7247E1468009A8A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97121AE6247E1468009A8A30 /* KalturaMeetings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97121AE8247E1468009A8A30 /* KalturaMeetings */ = {
+			isa = PBXGroup;
+			children = (
+				97121AFD247E14CB009A8A30 /* kaltura-logo.png */,
+				97121AE9247E1468009A8A30 /* AppDelegate.swift */,
+				97121AEB247E1468009A8A30 /* SceneDelegate.swift */,
+				97121AED247E1468009A8A30 /* ViewController.swift */,
+				97121AEF247E1468009A8A30 /* Main.storyboard */,
+				97121AF2247E146B009A8A30 /* Assets.xcassets */,
+				97121AF4247E146B009A8A30 /* LaunchScreen.storyboard */,
+				97121AF7247E146B009A8A30 /* Info.plist */,
+			);
+			path = KalturaMeetings;
+			sourceTree = "<group>";
+		};
+		996A85397DD45D37BB4DCAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978494E2247E202900353652 /* KalturaClient.framework */,
+				6E521F44F6B1565D80372B45 /* Pods_KalturaMeetings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D1D720640E7E17F26A2498C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D7C259F2BC5FAB60BCBCD2 /* Pods-KalturaMeetings.debug.xcconfig */,
+				42DABDC08BAA1B4B689983D0 /* Pods-KalturaMeetings.release.xcconfig */,
+				2D30553D293CD3FA84FB96DF /* Pods-KalturaMeetings.debug.xcconfig */,
+				EDE3E94A08917D3072F5CE41 /* Pods-KalturaMeetings.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97121AE5247E1468009A8A30 /* KalturaMeetings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97121AFA247E146B009A8A30 /* Build configuration list for PBXNativeTarget "KalturaMeetings" */;
+			buildPhases = (
+				2E1FE5FCCCB4E25028BA1052 /* [CP] Check Pods Manifest.lock */,
+				97121AE2247E1468009A8A30 /* Sources */,
+				97121AE3247E1468009A8A30 /* Frameworks */,
+				97121AE4247E1468009A8A30 /* Resources */,
+				1E3CC640F413158C038AB020 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalturaMeetings;
+			productName = KalturaMeetings;
+			productReference = 97121AE6247E1468009A8A30 /* KalturaMeetings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97121ADE247E1468009A8A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Philip Futernik";
+				TargetAttributes = {
+					97121AE5247E1468009A8A30 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 97121AE1247E1468009A8A30 /* Build configuration list for PBXProject "KalturaMeetings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97121ADD247E1468009A8A30;
+			productRefGroup = 97121AE7247E1468009A8A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97121AE5247E1468009A8A30 /* KalturaMeetings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97121AE4247E1468009A8A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97121AF6247E146B009A8A30 /* LaunchScreen.storyboard in Resources */,
+				97121AFE247E14CB009A8A30 /* kaltura-logo.png in Resources */,
+				97121AF3247E146B009A8A30 /* Assets.xcassets in Resources */,
+				97121AF1247E1468009A8A30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3CC640F413158C038AB020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KalturaMeetings/Pods-KalturaMeetings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E1FE5FCCCB4E25028BA1052 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalturaMeetings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97121AE2247E1468009A8A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97121AEE247E1468009A8A30 /* ViewController.swift in Sources */,
+				97121AEA247E1468009A8A30 /* AppDelegate.swift in Sources */,
+				97121AEC247E1468009A8A30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97121AEF247E1468009A8A30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97121AF0247E1468009A8A30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97121AF4247E146B009A8A30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97121AF5247E146B009A8A30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97121AF8247E146B009A8A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97121AF9247E146B009A8A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97121AFB247E146B009A8A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D30553D293CD3FA84FB96DF /* Pods-KalturaMeetings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYVQR897VJ;
+				INFOPLIST_FILE = KalturaMeetings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaltura.KalturaMeetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97121AFC247E146B009A8A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE3E94A08917D3072F5CE41 /* Pods-KalturaMeetings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYVQR897VJ;
+				INFOPLIST_FILE = KalturaMeetings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaltura.KalturaMeetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97121AE1247E1468009A8A30 /* Build configuration list for PBXProject "KalturaMeetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97121AF8247E146B009A8A30 /* Debug */,
+				97121AF9247E146B009A8A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97121AFA247E146B009A8A30 /* Build configuration list for PBXNativeTarget "KalturaMeetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97121AFB247E146B009A8A30 /* Debug */,
+				97121AFC247E146B009A8A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97121ADE247E1468009A8A30 /* Project object */;
+}
